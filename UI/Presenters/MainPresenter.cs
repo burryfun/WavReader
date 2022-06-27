@@ -31,11 +31,8 @@ namespace UI.Presenters
 
         public void OnOpenFileEventRaised()
         {
-            /*
-             * Проверить на ошибку читаемого формата !!!
-             */
-            string filename = _view.GetOpenFileName();
 
+            string filename = _view.GetOpenFileName();
 
             if (filename != null)
             {
